@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neel Samba</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #0a0a0a;
+            color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        .profile-image {
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+            object-position: top;
+            margin: 20px auto;
+            border: 1px solid #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .gallery-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
+        }
+        .gallery-image:hover {
+            transform: scale(1.02);
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 20px 0;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border: 1px solid #333;
+            border-radius: 4px;
+            background: #000;
+            margin-bottom: 20px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .video-caption {
+            margin-top: 10px;
+            color: #cccccc;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #111111;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+        h1 { 
+            font-size: 2.5em; 
+            margin: 0;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        h2 { 
+            color: #ffffff;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        h3 {
+            color: #cccccc;
+            letter-spacing: 1px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        ul { 
+            list-style-type: none; 
+            padding-left: 0; 
+        }
+        li { 
+            margin: 10px 0;
+            color: #cccccc;
+        }
+        .contact-info { 
+            color: #999; 
+            margin: 10px 0;
+            letter-spacing: 1px;
+        }
+        strong {
+            color: #ffffff;
+        }
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://i.ibb.co/d5jh4P0/ZCJ09929.jpg" alt="Neel Samba Profile" class="profile-image"/>
+        <h1>Neel Samba</h1>
+        <div class="contact-info">
+            House DJ & Music Producer<br>
+            New York City | neelsamba23@gmail.com<br>
+            Instagram & TikTok: @neelsamba<br>
+            Click <a href="https://soundcloud.com/neelsamba" target="_blank">here</a> for SoundCloud
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Performance Highlights</h2>
+        <h3>Notable Venues</h3>
+        <ul>
+            <li><strong>Marquee New York</strong> - Premier nightclub venue in NYC's Chelsea district</li>
+            <li><strong>Le Poisson Rouge</strong> - Boiler Room set at iconic Greenwich Village venue</li>
+            <li><strong>Summer Club NYC</strong> - Premier outdoor venue in New York City</li>
+            <li><strong>International Experience</strong>: Greece</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Support Sets for Notable Artists</h2>
+        <div class="gallery">
+            <img src="https://i.ibb.co/yRbNR2W/LPR-BNW.jpg" alt="With Oliver Heldens" class="gallery-image"/>
+            <img src="https://i.ibb.co/23dbg7d/00177-C17-09-F0-4-DC6-9-B33-B5-FB75-DAAAB9.jpg" alt="With Jonas Blue and Sam Feldt" class="gallery-image"/>
+            <img src="https://i.ibb.co/tMynFWv/IMG-1590.jpg" alt="With Sigala" class="gallery-image"/>
+            <img src="https://i.ibb.co/PDSQtbC/DSCF3228-2.jpg" alt="With Ian Asher" class="gallery-image"/>
+            <img src="https://i.ibb.co/x5gMM8V/D3-E788-F6-9913-4-D21-8498-4-CB8-A2-AF43-DF.jpg" alt="With Matoma" class="gallery-image"/>
+            <img src="https://i.ibb.co/VVtHncx/44799-AB3-A0-BE-462-E-943-B-DFCCCA904-F3-F.jpg" alt="Performance Shot" class="gallery-image"/>
+        </div>
+        <ul>
+            <li>Oliver Heldens • Jonas Blue • Sam Feldt • Ian Asher • Sigala • Matoma • Twinsick • Laszewo • No Thanks</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Featured Clips</h2>
+        <div class="video-grid">
+            <div class="video-container">
+                <iframe 
+                    src="https://player.vimeo.com/video/1043554024?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                    title="Ian Asher (2.2024)">
+                </iframe>
+                <div class="video-caption">Opening for Ian Asher - February 2024</div>
+            </div>
+            <div class="video-container">
+                <iframe 
+                    src="https://player.vimeo.com/video/1043562182?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                    title="Sigala">
+                </iframe>
+                <div class="video-caption">Opening for Sigala</div>
+            </div>
+            <div class="video-container">
+                <iframe 
+                    src="https://player.vimeo.com/video/1043585495?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                    title="Oliver Heldens">
+                </iframe>
+                <div class="video-caption">Opening for Oliver Heldens</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Digital Presence</h2>
+        <div style="display: grid; grid-template-columns: 3fr 2fr; gap: 30px; align-items: start;">
+            <div>
+                <h3>Social Media</h3>
+                <ul>
+                    <li>
+                        <strong>TikTok</strong>
+                        <div style="margin: 8px 0;">29K+ followers</div>
+                        <ul>
+                            <li>High-energy DJ content and music production insights</li>
+                            <li>Regular engagement with electronic music community</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Instagram</strong>
+                        <div style="margin: 8px 0;">1.5K+ followers</div>
+                        <ul>
+                            <li>Growing presence with targeted content strategy</li>
+                            <li>Behind-the-scenes footage and performance highlights</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>SoundCloud</strong>
+                        <div style="margin: 8px 0;">200K+ total streams</div>
+                        <ul>
+                            <li>Curated DJ mixes</li>
+                            <li>Upcoming original remixes</li>
+                        </ul>
+                    </li>
+                </ul>
+                <br>
+
+                <h3>Artist Recognition</h3>
+                <ul>
+                    <li>Mix featured and reposted by <strong>Alesso</strong> on his official page</li>
+                    <li>Featured on <strong>Mau P</strong>'s Instagram story</li>
+                    <li>Over <strong>200K</strong> streams on SoundCloud mixes</li>
+                    <li>Upcoming remix releases planned through SoundCloud/Hypeedit</li>
+                    <li>Original music releases coming soon to Spotify</li>
+                </ul>
+            </div>
+            <div class="video-container" style="padding-bottom: 177.78%;">
+                <iframe 
+                    src="https://player.vimeo.com/video/1043563681?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                    title="Summer Club">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
